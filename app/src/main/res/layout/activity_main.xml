@@ -17,6 +17,15 @@
             android:layout_gravity="center"
             android:src="@drawable/sun"
             android:contentDescription="@string/sun" />
+
+        <ImageView
+            android:id="@+id/lune"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/sun"
+            android:src="@drawable/lune"
+            android:visibility="invisible" />
     </FrameLayout>
     <View
         android:layout_width="match_parent"
